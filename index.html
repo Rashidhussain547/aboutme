@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Rashid-BLOG</title>
+  </head>
+  <body>
+    <!--HEADER-->
+
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">Portfolio<span>.</span></a>
+    </nav>
+
+    <section class="home">
+      <div class="row container home-content">
+        <div class="h-content-left col-lg-6 col-sm-12">
+          <h3>Hi, It's me</h3>
+          <h1>Rashid Hussain</h1>
+          <h3>I am a <span id="element"></span></h3>
+          <p>
+            Hi Everyone, I am Rashid hussain from Karachi, Pakistan. I am a
+            front-end developer having good skills in building webApp using
+            MERN tecnology.<br>
+            Contact me on: <span class="email">rashidmrh.547@gmail.com</span>
+          </p>
+          <div class="social-icons">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100088416624710" style="--i: 7"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/rashidmrh.547/" style="--i: 8"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/54Rashidhussain?fbclid=IwAR2sTp4jH2FNevlPPBaDX8dZan3z8bMN9HlF7XM8jmQ7KMadSiIZ9h4jIsI" style="--i: 9"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://github.com/Rashidhussain547" style="--i:10"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="h-content-right col-lg-6 col-sm-12">
+          <img src="pic.jpg" alt="Rashid's image" />
+        </div>
+      </div>
+    </section>
+
+
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ["Software Engineer","MERN Stack","Frontend Developer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+</body>
+    
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
